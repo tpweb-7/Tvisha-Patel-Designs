@@ -496,7 +496,7 @@ var PROJECTS = [
    e.preventDefault();
    var d=new FormData(cform);
    var body=encodeURIComponent('From: '+(d.get('name')||'')+' ('+(d.get('email')||'')+')\n\n'+(d.get('message')||''));
-   window.location.href='mailto:hello@tvishapatel.com?subject='+encodeURIComponent('Portfolio enquiry')+'&body='+body;
+   window.location.href='mailto:?subject='+encodeURIComponent('Portfolio enquiry')+'&body='+body;
  });
 
  /* ---------- opening sequence ---------- */
